@@ -1,0 +1,113 @@
+*{
+    text-align: center;
+  
+}
+body{
+    background-color: #ddd8b0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#heading{
+    color: maroon;
+}
+.container{
+    background-color: blanchedalmond;
+    padding: 1.6rem;
+    border-radius: 2rem;
+    height: fit-content;
+    width: 40rem;
+    margin: 3rem auto;
+}
+#username{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: maroon;
+    font-size: 1.25rem;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+
+#btn{
+    background-color: rgb(65, 16, 16);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    height: 2.5rem;
+    
+}
+#btn:hover{
+ box-shadow: 2px 2px 5px black;
+ transition-delay: 10ms;
+}
+#textarea{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    resize: none;
+    background: blanchedalmond;
+    text-align: start;
+    
+}
+#form{
+    background-color:blanchedalmond ;
+    margin: 5rem auto;
+    height: 35rem;
+    width: 50rem;
+    border-radius: 2rem;
+    
+}
+input{
+    background-color:blanchedalmond ;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 3rem;
+   
+    
+}
+input:focus {
+    outline: none; /* Removes the default blue outline */
+    border: none;  /* Removes the border */
+    /* Optionally, you can add your own custom border */
+    border: 1px solid black; /* Light grey border */
+}
+#textarea1{
+    margin: 3.5rem 0;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    resize: none;
+    background: blanchedalmond;
+    text-align: start;
+
+
+}
+#textarea:focus {
+    outline: none; /* Removes the default blue outline */
+    border: none;  /* Removes the border */
+    /* Optionally, you can add your own custom border */
+    border: 1px solid black; /* Light grey border */
+}
+#textarea1:focus {
+    outline: none; /* Removes the default blue outline */
+    border: none;  /* Removes the border */
+    /* Optionally, you can add your own custom border */
+    border: 1px solid black; /* Light grey border */
+}
